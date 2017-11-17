@@ -1,0 +1,26 @@
+{
+  "name": "restify-jems-di",
+  "version": "0.0.1",
+  "description": "A seamless integration between restify web server and the IoC container @jems/di, allowing the use and management of dependency injection.",
+  "main": "src/index.js",
+  "dependencies": {
+    "@jems/di": "^0.9.2",
+    "@types/methods": "^1.1.0",
+    "@types/restify": "^5.0.6",
+    "methods": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "webserver",
+    "ioc",
+    "jems/di",
+    "dependency-injection",
+    "dependencies",
+    "restify"
+  ],
+  "author": "Francisco Mercedes <franciscomerdot@gmail.com>",
+  "license": "MIT"
+}
